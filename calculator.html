@@ -18,6 +18,11 @@
 				var num = document.getElementById("n1");
 				num.value = Math.pow(num.value, 4);
 			}
+
+			function square() {
+				var num = document.getElementById("n1");
+				num.value = Math.pow(num.value, 2);
+			}
 		</script>
 	</head>
 	
@@ -25,6 +30,7 @@
 		<h1>Calculadora de Erick Javier S&aacute;nchez Garnica</h1>
 		Number: <input type="text" id="n1" />
 		<p>
+			<button onclick="square()"> x^2 </button>
 			<button onclick="cube()"> x^3 </button>
 			<button onclick="power4()"> x^4 </button>
 			<button onclick="sin()"> sin(x) </button>
